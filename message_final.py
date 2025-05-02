@@ -61,8 +61,8 @@ def connect_db():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="7731842355@Amn",
-        database="contact_form"
+        password="",
+        database=""
     )
     cursor = conn.cursor()
     cursor.execute("""
