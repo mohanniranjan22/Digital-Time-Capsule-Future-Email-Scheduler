@@ -17,8 +17,8 @@ def connect_db():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="7731842355@Amn",  # Change this in production
-            database="contact_form"
+            password="",  # Change this in production
+            database=""
         )
         cursor = conn.cursor()
         cursor.execute("""
@@ -41,8 +41,8 @@ def connect_db():
         return None
 
 # Your Gmail account
-EMAIL_ADDRESS = "hm9999238@gmail.com"
-EMAIL_PASSWORD = "igyz rvys xxrk ezpj"  # Use App Password
+EMAIL_ADDRESS = ""
+EMAIL_PASSWORD = ""  # Use App Password
 
 
 
